@@ -1,58 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="robots" content="noindex" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Muscle Awareness Sonification System for Digital Artists</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Muscle Awareness Sonification System for Digital Artists</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/smallHeart.png" rel="icon" />
+    <link href="assets/img/smallHeart.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/smallHeart.png" rel="icon">
-  <link href="assets/img/smallHeart.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/line-awesome/css/line-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: MyPortfolio - v2.2.0
   * Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body>
-
-  <!-- ======= Navbar ======= -->
-   <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
-    <div class="container py-2 py-md-5">
-      <div class="row align-items-start">
-        <div class="col-md-2">
-          <ul class="custom-menu">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-<!--
+  <body>
+    <!-- ======= Navbar ======= -->
+    <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
+      <div class="container py-2 py-md-5">
+        <div class="row align-items-start">
+          <div class="col-md-2">
+            <ul class="custom-menu">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Me</a></li>
+              <!--
             <li><a href="services.html">Services</a></li>
             <li><a href="works.html">Works</a></li>
 -->
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-md-6 d-none d-md-block  mr-auto">
-<!--
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 d-none d-md-block mr-auto">
+            <!--
           <div class="tweet d-flex">
             <span class="icofont-twitter text-white mt-2 mr-3"></span>
             <div>
@@ -60,54 +71,82 @@
             </div>
           </div>
 -->
-        </div>
-        <div class="col-md-4 d-none d-md-block">
-          <h3>Hire Me!</h3>
-          <p>I'm currently looking for full-time intro design positions. Feel free to reach out to me if interested! <br> <a href="#">kusyu.d@gmail.com</a></p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <nav class="navbar navbar-light custom-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Rebekah Ku</a>
-
-      <a href="#" class="burger" data-toggle="collapse" data-target="#main-navbar">
-        <span></span>
-      </a>
-
-    </div>
-  </nav>
-
-
-  <main id="main">
-
-    <section class="section">
-      <div class="container">
-        <div class="row mb-4 align-items-center">
-          <div class="col-md-auto" data-aos="fade-up">
-            <h2>Muscle Awareness Sonification System for Digital Artists</h2>
-              <p>This is a system that was aimed to reduce muscle stress and tension reduction for people working at their desk, particularly for digital artists, who typically work at their desks for long periods of time. The system supported tasks such as sonifiying data about how hard artists are gripping their digitizer pens or stylus to remind users to reduce their pen grip to prevent cramping and hand fatigue.</p> 
-              
-              <p>Another task that the system supported was sonifying data about the user’s posture to remind users to straighten up and fix their posture. The system will also supported sonifying data about where the users is mainly drawing from (shoulder vs wrist) to reduce wrist overuse and prevent injury</p> 
-              <p>This project used Wizard of Oz prototyping using a control interface program written in Java using Processing, ControlP5, and the Beads library.</p>
-             <p>There was no visual component for the user -- rather auditory sounds were used to communicate data.</p>
-
-
+          </div>
+          <div class="col-md-4 d-none d-md-block">
+            <h3>Hire Me!</h3>
+            <p>
+              I'm currently looking for full-time intro design positions. Feel
+              free to reach out to me if interested! <br />
+              <a href="#">kusyu.d@gmail.com</a>
+            </p>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="site-section pb-0">
+    <nav class="navbar navbar-light custom-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Rebekah Ku</a>
+
+        <a
+          href="#"
+          class="burger"
+          data-toggle="collapse"
+          data-target="#main-navbar"
+        >
+          <span></span>
+        </a>
+      </div>
+    </nav>
+
+    <main id="main">
+      <section class="section">
         <div class="container">
-          <div class="row align-items-stretch">
-            <div class="col-md-8" data-aos="fade-up">
-              <img src="assets/img/audioFin.jpg" alt="Image" class="img-fluid">
+          <div class="row mb-4 align-items-center">
+            <div class="col-md-auto" data-aos="fade-up">
+              <h2>Muscle Awareness Sonification System for Digital Artists</h2>
+              <p>
+                This is a system that was aimed to reduce muscle stress and
+                tension reduction for people working at their desk, particularly
+                for digital artists, who typically work at their desks for long
+                periods of time. The system supported tasks such as sonifiying
+                data about how hard artists are gripping their digitizer pens or
+                stylus to remind users to reduce their pen grip to prevent
+                cramping and hand fatigue.
+              </p>
+
+              <p>
+                Another task that the system supported was sonifying data about
+                the user’s posture to remind users to straighten up and fix
+                their posture. The system will also supported sonifying data
+                about where the users is mainly drawing from (shoulder vs wrist)
+                to reduce wrist overuse and prevent injury
+              </p>
+              <p>
+                This project used Wizard of Oz prototyping using a control
+                interface program written in Java using Processing, ControlP5,
+                and the Beads library.
+              </p>
+              <p>
+                There was no visual component for the user -- rather auditory
+                sounds were used to communicate data.
+              </p>
             </div>
-    
-<!--
+          </div>
+        </div>
+
+        <div class="site-section pb-0">
+          <div class="container">
+            <div class="row align-items-stretch">
+              <div class="col-md-8" data-aos="fade-up">
+                <img
+                  src="assets/img/audioFin.jpg"
+                  alt="Image"
+                  class="img-fluid"
+                />
+              </div>
+
+              <!--
             <div class="col-md-3 ml-auto" data-aos="fade-up" data-aos-delay="100">
               <div class="sticky-content">
                 <h3 class="h3">My Responsibilities</h3>
@@ -128,156 +167,295 @@
                 </div>
             </div>
 -->
+            </div>
           </div>
         </div>
-        </div>
-        
-         <div class="container">
-        <div class="row mb-4 align-items-center">
-          <div class="col-md-auto" data-aos="fade-up">
-              <br/>
-              <br/>
-            <h2>The Problem</h2>
-            <p>Many digital artists typically work for long hours at their desks, using digitizer devices to draw in digital software environments like Photoshop and Clip Studio Paint.</p>
-            <p>Some current frustrations with the current drawing experience for digital artists are physical injuries, chronic pain, and possibly even a loss of their ability to continue their job. In 2015, Yuumei, a popular artist on the platform Deviantart, had posted a blog post talking about how she destroyed her body by drawing without taking care of her general health.</p>
-            <p>However, if an artist’s movements were sonified to allow the users to be more aware of their body and their sitting posture, it could benefit the artist and help reduce the risk of injury, which tends to be common in the artist community.</p>
-          </div>
-        </div>
-    
-             
-        <div class="row mb-4 align-items-center">
-          <div class="col-md-auto" data-aos="fade-up">
-              <br/>
-              <br/>
-            <h2>User Persona</h2>
-            
-            <p>Meet Emma (25). Emma is a fulltime freelance artist who uses both an iPad and a Wacom Cintiq to complete her artworks. She works from home and spends a lot of time sitting at her desk drawing for several hours a day. <br/><br/>
-            </p>
-              
-            <p>
-                Problems:</p>
-            <p>
-            Lately Emma has been feeling some pain in her body while drawing. Her hands have been hurting from griping her digitizer pen too hard and her lower back has been aching a bit from sitting for so much. She tries to be mindful of her posture and her pen pressure while drawing, but soon forgets and falls back into her old back habits after a several minutes. 
 
-            Emma has heard from her artist friends about the dangers of repetitive strain injury (RSI) and other complications and wants to fix her bad habits quickly so that she doesn’t damage her body further. 
-  
-            </p>
+        <div class="container">
+          <div class="row mb-4 align-items-center">
+            <div class="col-md-auto" data-aos="fade-up">
+              <br />
+              <br />
+              <h2>The Problem</h2>
+              <p>
+                Many digital artists typically work for long hours at their
+                desks, using digitizer devices to draw in digital software
+                environments like Photoshop and Clip Studio Paint.
+              </p>
+              <p>
+                Some current frustrations with the current drawing experience
+                for digital artists are physical injuries, chronic pain, and
+                possibly even a loss of their ability to continue their job. In
+                2015, Yuumei, a popular artist on the platform Deviantart, had
+                posted a blog post talking about how she destroyed her body by
+                drawing without taking care of her general health.
+              </p>
+              <p>
+                However, if an artist’s movements were sonified to allow the
+                users to be more aware of their body and their sitting posture,
+                it could benefit the artist and help reduce the risk of injury,
+                which tends to be common in the artist community.
+              </p>
+            </div>
           </div>
-        </div>
-            <div class="row align-items-stretch">
-        <div class="col-md-8" data-aos="fade-up">
-          <img src="assets/img/audioPersona.jpg" alt="Image" class="img-fluid">
-        </div>
-         </div>
-        
-        <div class="row mb-4 align-items-center">
-          <div class="col-md-auto" data-aos="fade-up">
-              <br/>
-              <br/>
-            <h2>Scenarios</h2>
+
+          <div class="row mb-4 align-items-center">
+            <div class="col-md-auto" data-aos="fade-up">
+              <br />
+              <br />
+              <h2>User Persona</h2>
+
+              <p>
+                Meet Emma (25). Emma is a fulltime freelance artist who uses
+                both an iPad and a Wacom Cintiq to complete her artworks. She
+                works from home and spends a lot of time sitting at her desk
+                drawing for several hours a day. <br /><br />
+              </p>
+
+              <p>Problems:</p>
+              <p>
+                Lately Emma has been feeling some pain in her body while
+                drawing. Her hands have been hurting from griping her digitizer
+                pen too hard and her lower back has been aching a bit from
+                sitting for so much. She tries to be mindful of her posture and
+                her pen pressure while drawing, but soon forgets and falls back
+                into her old back habits after a several minutes. Emma has heard
+                from her artist friends about the dangers of repetitive strain
+                injury (RSI) and other complications and wants to fix her bad
+                habits quickly so that she doesn’t damage her body further.
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-stretch">
+            <div class="col-md-8" data-aos="fade-up">
+              <img
+                src="assets/img/audioPersona.jpg"
+                alt="Image"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <div class="row mb-4 align-items-center">
+            <div class="col-md-auto" data-aos="fade-up">
+              <br />
+              <br />
+              <h2>Scenarios</h2>
               <p>Scenario 1: Reducing Pen Grip</p>
-              
-              <p>Emma is a freelance artist who draws for several hours at her desk each day using her iPad and Wacom Cintiq. Lately, she notices that her hand gets very tired when she draws and finds that she can’t draw without her hand quickly cramping up. Talking with her doctor, she finds that she has a bad habit of tightly gripping her pen, causing her hand to cramp up and tire quickly.</p> 
-              <p>Emma wants to fix this habit to help prevent herself from getting injured any further. She tries to be mindful when drawing and reduce her pen grip, but after a couple of moments she inadvertently reverts back to her bad habit. Emma learns about a new sonification system that can alert her with a loud sound when she’s gripping her pen too hard. When Emma reduces her pen grip, the loud sound disappears. When Emma is gripping her pen a little too hard, she hears a warning message that let’s her know that she should slightly reduce her pen grip.</p>
-              
-              <br/>
+
+              <p>
+                Emma is a freelance artist who draws for several hours at her
+                desk each day using her iPad and Wacom Cintiq. Lately, she
+                notices that her hand gets very tired when she draws and finds
+                that she can’t draw without her hand quickly cramping up.
+                Talking with her doctor, she finds that she has a bad habit of
+                tightly gripping her pen, causing her hand to cramp up and tire
+                quickly.
+              </p>
+              <p>
+                Emma wants to fix this habit to help prevent herself from
+                getting injured any further. She tries to be mindful when
+                drawing and reduce her pen grip, but after a couple of moments
+                she inadvertently reverts back to her bad habit. Emma learns
+                about a new sonification system that can alert her with a loud
+                sound when she’s gripping her pen too hard. When Emma reduces
+                her pen grip, the loud sound disappears. When Emma is gripping
+                her pen a little too hard, she hears a warning message that
+                let’s her know that she should slightly reduce her pen grip.
+              </p>
+
+              <br />
               <p>Scenario 2: Improving Posture</p>
-              
-              <p>Emma is a freelance artist who draws for several hours at her desk each day using her iPad and Wacom Cintiq. Lately, she notices that some pain and discomfort in her back and neck and finds that the pain increases after drawing for a few hours. Talking with her doctor, she finds that she has poor sitting posture, causing the discomfort in her back and neck. </p>
-              <p>Emma wants to fix this habit to help prevent herself from getting injured any further. She tries to be mindful when drawing and maintain good posture, but after a couple of moments she inadvertently reverts back to her bad habit. Emma learns about a new sonification system that can alert her with a loud buzzing sound when her posture is bad. When Emma slouches, the system plays a loud sound to alert her to readjust her posture. If Emma’s neck slouches forwards, another differnt loud sound is played to alert her. </p>
-              
-              <br/>
+
+              <p>
+                Emma is a freelance artist who draws for several hours at her
+                desk each day using her iPad and Wacom Cintiq. Lately, she
+                notices that some pain and discomfort in her back and neck and
+                finds that the pain increases after drawing for a few hours.
+                Talking with her doctor, she finds that she has poor sitting
+                posture, causing the discomfort in her back and neck.
+              </p>
+              <p>
+                Emma wants to fix this habit to help prevent herself from
+                getting injured any further. She tries to be mindful when
+                drawing and maintain good posture, but after a couple of moments
+                she inadvertently reverts back to her bad habit. Emma learns
+                about a new sonification system that can alert her with a loud
+                buzzing sound when her posture is bad. When Emma slouches, the
+                system plays a loud sound to alert her to readjust her posture.
+                If Emma’s neck slouches forwards, another differnt loud sound is
+                played to alert her.
+              </p>
+
+              <br />
               <p>Scenario 3: Reduce Wrist Overuse</p>
-              <p>Emma is a freelance artist who draws for several hours at her desk each day using her iPad and Wacom Cintiq. Lately, she notices that some pain and discomfort in wrist and finds that she can no longer draw for long periods of time without pain issues. Talking with her doctor, she finds that she has been overusing her wrist, causing the pain in her wrist. </p>
-              <p>Emma wants to fix this habit to help prevent herself from getting injured any further. She tries to be mindful when drawing and tries to draw mostly from her shoulder, but after a couple of moments she inadvertently reverts back to her bad habit of drawing from her wrist. Emma learns about a new sonification system that can alert her with a loud sliding sound when she does not draw mainly from her shoulder. When Emma draws primarily from her wrist, the system plays a loud sliding sound to alert her to draw from her shoulder. If Emma draws properly from her shoulder, the sound disappears.</p>
+              <p>
+                Emma is a freelance artist who draws for several hours at her
+                desk each day using her iPad and Wacom Cintiq. Lately, she
+                notices that some pain and discomfort in wrist and finds that
+                she can no longer draw for long periods of time without pain
+                issues. Talking with her doctor, she finds that she has been
+                overusing her wrist, causing the pain in her wrist.
+              </p>
+              <p>
+                Emma wants to fix this habit to help prevent herself from
+                getting injured any further. She tries to be mindful when
+                drawing and tries to draw mostly from her shoulder, but after a
+                couple of moments she inadvertently reverts back to her bad
+                habit of drawing from her wrist. Emma learns about a new
+                sonification system that can alert her with a loud sliding sound
+                when she does not draw mainly from her shoulder. When Emma draws
+                primarily from her wrist, the system plays a loud sliding sound
+                to alert her to draw from her shoulder. If Emma draws properly
+                from her shoulder, the sound disappears.
+              </p>
+            </div>
+          </div>
 
-          </div>
-        </div>
-             
-        <div class="row mb-4 align-items-center">
-          <div class="col-md-auto" data-aos="fade-up">
-              <br/>
-              <br/>
-            <h2>Testing</h2>
-            
-            <p>In order to test the system, user tests were conducted using student  digital artists who used Wacom-like digitizer devices to draw digitally. Three digital artists were recruited for this user test. Due to the current pandemic, all user tests were done remotely through the use of Discord’s video call function.</p>
-              
-            <p>Unfortunately, this means that during some user tests, technical problems have occurred, such as video calls freezing and sound cutting out from time to time. Other shortcomings were that I was unable to recruit professional or non-student hobbyist artists, not having a larger user testing pool, and not having the ability to actually measure and gather data from the participant as they tested the system.
-            </p>
-              
-            <p>
-            Participants were asked to access a special link to aggie.io, an online collaborative drawing site, and were asked to do their drawings for the duration of the whole user testing here. Training was split into three parts: training for grip pressure, training for posture, and training for wrist awareness. Training for posture was further split into to portions: training for keeping good posture and training for keeping the head/neck in good position.
-            </p>
-            
-          </div>
-        </div>
-             
-        <div class="row align-items-stretch">
-        <div class="col-md-8" data-aos="fade-up">
-          <img src="assets/img/audioController.JPG" alt="Image" class="img-fluid">
-        <p>The programmed controller used for the Wizard of Oz prototyping.</p>
-        </div>
-         </div>
-             
-        <div class="row mb-4 align-items-center">
-          <div class="col-md-auto" data-aos="fade-up">
-              <br/>
-              <br/>
-            <h2>Results</h2>
-            
-            <p>From the data gathered, it’s clear that none of the participants thought that the sounds were enjoyable. In fact, all of them commented that the sounds should be changed to something more pleasant. Even one even commented how audio may not be a suitable way to express the data as many artists like to listen to podcasts or music as they draw and that such a system could detract to that experience.</p>
-              
-            <p>Artists need to be in a creative environment to draw and create their work, and from the results, it’s clear that the system needs a bit of work to make the sonifications enjoyable and promote a creative space. </p>
-            <p>This also brings up a question of whether or not audio is a good medium into translating the data. If artists need to have a creative environment in which music and podcasts are being listened, how can the sonifications not break that environment? Or would it be more beneficial if that data got translated into tactile feedback instead?</p>
-              
-            <p>The current design of the study involves having researcher verbally give commands to the participants as it’s impossible to visually see things like how hard someone is gripping their pen without sensor data. As a result, this may be stressing participants into focusing on the wrong thing – they may be too focused on listening to the instructions given that they may not be paying enough attention to the system itself.
-            </p>
-              
-            <p>
-            More surprisingly, is the realization that some artists are indifferent to improving their posture, preferring their poor posture and habits even if it may harm them in the long run. Overall, the data gathered from the user tests conducted with this system are inconclusive, but point to more questions that need to be anwered about the system and it's core design.
-            </p>
-            
-          </div>
-        </div>
-        
-        <div class="row mb-4 align-items-center">
-          <div class="col-md-auto" data-aos="fade-up">
-              <br/>
-              <br/>
-            <h2>More Info</h2>
-            
-              <p>An ACM style write up is avalible to download and view here.</p>
-              <p><a href="/assets/files/MuscleAwarnessSystem.pdf" class="readmore">Download Write Up</a></p>
-              
-            
-            
-          </div>
-        </div>
-        
-      </div>
-        
-    </section>
+          <div class="row mb-4 align-items-center">
+            <div class="col-md-auto" data-aos="fade-up">
+              <br />
+              <br />
+              <h2>Testing</h2>
 
-    
-  </main><!-- End #main -->
+              <p>
+                In order to test the system, user tests were conducted using
+                student digital artists who used Wacom-like digitizer devices to
+                draw digitally. Three digital artists were recruited for this
+                user test. Due to the current pandemic, all user tests were done
+                remotely through the use of Discord’s video call function.
+              </p>
 
-  <!-- ======= Footer ======= -->
-  <footer class="footer" role="contentinfo">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <p class="mb-1">&copy; Copyright MyPortfolio. All Rights Reserved</p>
-          <div class="credits">
-            <!--
+              <p>
+                Unfortunately, this means that during some user tests, technical
+                problems have occurred, such as video calls freezing and sound
+                cutting out from time to time. Other shortcomings were that I
+                was unable to recruit professional or non-student hobbyist
+                artists, not having a larger user testing pool, and not having
+                the ability to actually measure and gather data from the
+                participant as they tested the system.
+              </p>
+
+              <p>
+                Participants were asked to access a special link to aggie.io, an
+                online collaborative drawing site, and were asked to do their
+                drawings for the duration of the whole user testing here.
+                Training was split into three parts: training for grip pressure,
+                training for posture, and training for wrist awareness. Training
+                for posture was further split into to portions: training for
+                keeping good posture and training for keeping the head/neck in
+                good position.
+              </p>
+            </div>
+          </div>
+
+          <div class="row align-items-stretch">
+            <div class="col-md-8" data-aos="fade-up">
+              <img
+                src="assets/img/audioController.JPG"
+                alt="Image"
+                class="img-fluid"
+              />
+              <p>
+                The programmed controller used for the Wizard of Oz prototyping.
+              </p>
+            </div>
+          </div>
+
+          <div class="row mb-4 align-items-center">
+            <div class="col-md-auto" data-aos="fade-up">
+              <br />
+              <br />
+              <h2>Results</h2>
+
+              <p>
+                From the data gathered, it’s clear that none of the participants
+                thought that the sounds were enjoyable. In fact, all of them
+                commented that the sounds should be changed to something more
+                pleasant. Even one even commented how audio may not be a
+                suitable way to express the data as many artists like to listen
+                to podcasts or music as they draw and that such a system could
+                detract to that experience.
+              </p>
+
+              <p>
+                Artists need to be in a creative environment to draw and create
+                their work, and from the results, it’s clear that the system
+                needs a bit of work to make the sonifications enjoyable and
+                promote a creative space.
+              </p>
+              <p>
+                This also brings up a question of whether or not audio is a good
+                medium into translating the data. If artists need to have a
+                creative environment in which music and podcasts are being
+                listened, how can the sonifications not break that environment?
+                Or would it be more beneficial if that data got translated into
+                tactile feedback instead?
+              </p>
+
+              <p>
+                The current design of the study involves having researcher
+                verbally give commands to the participants as it’s impossible to
+                visually see things like how hard someone is gripping their pen
+                without sensor data. As a result, this may be stressing
+                participants into focusing on the wrong thing – they may be too
+                focused on listening to the instructions given that they may not
+                be paying enough attention to the system itself.
+              </p>
+
+              <p>
+                More surprisingly, is the realization that some artists are
+                indifferent to improving their posture, preferring their poor
+                posture and habits even if it may harm them in the long run.
+                Overall, the data gathered from the user tests conducted with
+                this system are inconclusive, but point to more questions that
+                need to be anwered about the system and it's core design.
+              </p>
+            </div>
+          </div>
+
+          <div class="row mb-4 align-items-center">
+            <div class="col-md-auto" data-aos="fade-up">
+              <br />
+              <br />
+              <h2>More Info</h2>
+
+              <p>
+                An ACM style write up is avalible to download and view here.
+              </p>
+              <p>
+                <a
+                  href="/assets/files/MuscleAwarnessSystem.pdf"
+                  class="readmore"
+                  >Download Write Up</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="mb-1">
+              &copy; Copyright MyPortfolio. All Rights Reserved
+            </p>
+            <div class="credits">
+              <!--
             All the links in the footer should remain intact.
             You can delete the links only if you purchased the pro version.
             Licensing information: https://bootstrapmade.com/license/
             Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyPortfolio
           -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
           </div>
-        </div>
-<!--
+          <!--
         <div class="col-sm-6 social text-md-right">
           <a href="#"><span class="icofont-twitter"></span></a>
           <a href="#"><span class="icofont-facebook"></span></a>
@@ -285,24 +463,22 @@
           <a href="#"><span class="icofont-behance"></span></a>
         </div>
 -->
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
